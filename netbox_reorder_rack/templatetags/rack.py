@@ -1,5 +1,5 @@
 from django import template
-from utilities.utils import foreground_color
+from utilities.html import foreground_color
 
 register = template.Library()
 
